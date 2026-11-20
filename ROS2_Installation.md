@@ -68,3 +68,15 @@ ros2 run demo_nodes_cpp talker
 ros2 run demo_nodes_py listener
 ```
 Если строка «Hello World» передается между двумя терминалами без проблем, то система коммуникации ROS 2 работает корректно.
+
+# Дополнительно
+## Демонстрационная симуляционная среда turtlesim.
+Для запуска в одном терминале запускается нода
+```bash
+ros2 run turtlesim turtlesim_node
+```
+и в другом терминале нода
+```bash
+ros2 run turtlesim turtle_teleop_key
+```
+С помощью стрелок на клавиатуре вы можете управлять черепашкой.
